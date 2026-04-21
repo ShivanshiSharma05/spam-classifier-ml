@@ -1,26 +1,21 @@
-# 📧 Spam Detection using Machine Learning
+# 📩 Spam Message Classifier Pro
 
-## 📌 Overview
-A machine learning model that classifies SMS messages as Spam or Not Spam.
+A Machine Learning web app that detects whether a message is Spam or Ham.
 
 ## 🚀 Features
-- Text preprocessing
-- TF-IDF / Count Vectorization
-- Classification using ML algorithms
+- Real-time spam detection
+- Confidence score
+- Interactive UI (Streamlit)
+- TF-IDF + Logistic Regression
+- Balanced dataset
 
 ## 🛠️ Tech Stack
 - Python
+- Streamlit
 - Scikit-learn
 - Pandas
-- NLP
 
-## 📂 Project Structure
-spam_ml_project/ │── model.py │── spam.csv
-
-## ▶️ How to Run
+## ▶️ Run Project
 ```bash
-python model.py
-
-##📊 Output
-Spam detection accuracy
-Prediction on custom input
+pip install -r requirements.txt
+streamlit run app.py
